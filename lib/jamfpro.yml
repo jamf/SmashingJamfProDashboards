@@ -1,0 +1,21 @@
+# username with read access to advanced searches and smart groups
+user: readusername
+# password for readusername
+password: readpassword
+# Jamf Pro URL.  Include port if needed, do not include trailing slash
+url: https://yourjamfpro.url.com
+
+# Populate below with either Smart Group or Advanced Search ID numbers
+# Widgets used: Hotness, Meter, Graph, List
+# Smart group for all managed computers, updates smartmeter.rb, populates meter widget
+allcomps:
+# Smart group for meter percentage, updates smartmeter.rb, populates meter widget
+percentgroup1:  
+# Smart mobile device group, updates smartdevice.rb, populates 3rd widget in jnuc.erb
+msg1:
+# Smart computer group, updates smartgroup.rb, populates 2nd widget in jnuc.erb
+cgroup1:
+# Advanced Search for computers, updates computers.rb, populates first widget in jnuc.erb
+adv1:
+# Advanced search that shows models for a list, updates modellist.rb, populates list widget in jnuc.erb
+listadv: 
