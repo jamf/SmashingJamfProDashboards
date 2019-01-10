@@ -8,6 +8,10 @@ Contains example jobs, example dashboard, and example YAML file.
 Requires the Hotness widget.  To get this run:
 `smashing install 6246149`
 
+Or go to URL:
+
+[Hotness Widget](https://gist.github.com/rowanu/6246149)
+ 
 #### Jobs
 * computers.rb: Returns name and device count for an advanced computer search
 * modellist.rb: Returns name of advanced search, list and count of models in an advanced computer search
